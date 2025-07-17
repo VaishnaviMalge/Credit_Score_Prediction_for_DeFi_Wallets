@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
+import os
 
 wallet_raw_data = pd.read_json(r"E:\Vaishnavi\practiced\vs code\Self_Practice\internship projects\wallet_credit_scorer\user-wallet-transactions.json")
 
@@ -100,5 +101,6 @@ wallet_featured_data["credit_score"] = pd.DataFrame(score)
 
 wallet_featured_data.to_csv("wallet_score.csv", index=False)                 # saving file with all feture including target feeture
 
+print(f"File saved succesfully at location:{os.getcwd()}")
 
 # Note: main .ipynb file does contain all code in detail including each step during data cleaning and different algorithm models with calculated r2 for train and test data, MAE and RMSE. CAn be submitted on demand.
