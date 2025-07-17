@@ -16,7 +16,12 @@ To build a ML model that predicts the credit score for each wallet to know the c
 5 .  **Calculating Credit Score**: Using model predicted credit scores. Used a whole x independent variable cause we need to create a whole new column for credit score.    
 6 .  **Save file**: Saved the file with all features including credit score. 
 7 .   **Analysis**: Performed an analysis to find the user behaviour for different ranges of credit score.
-    
+
+### Why Regression
+ The target variable is contineaous
+ Supervised learning can give more accurate prediction than Unsupervised learning
+ Regression can give credit score between 0 - 1000 for each row. This will be helpful to decide creditworthiness in detailed way
+ 
 
 ### Architecture
 
@@ -46,3 +51,7 @@ Data split can be done according to time to make the model more reliable for rea
 
 2 .    **Unsupervised clustering for Wallet segmentation**  
 Unsupervised clustering can be performed (k-means) to create segments for wallets to show different behaviour groups based on the transaction patterns.
+
+3 .    **Hyperparameter tuning**
+Best hyperparameter can be found using GridsearchCV or RandmizedSearchCV these can be used to get more accurate prediction. 
+Note: In provided .py file only main coding is given with a finalised model only. detail.ipynb file which include datacleaning whole process(.describe(), .inf(), etc.) and different sample models along with calculation of r2 MAE and RMSE for each value can be provided on demand.
