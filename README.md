@@ -1,7 +1,8 @@
 ﻿
 ## Credit Score Prediction for DeFi Wallets (Aave v2 Protocol)
 
->
+>problem statement: https://zerufinance.notion.site/Problem-statement-1-2300a8e4815880bc86b5ddc97b3d8cfd
+
 ### Objective
 
 To build a ML model that predicts the credit score for each wallet to know the credit worthiness of a user.
