@@ -16,7 +16,7 @@ To build a ML model that predicts the credit score for each wallet to know the c
 4 .  **Model selection**: As the target variables are continuos experimented with different regression algorithm and choose the most reliable one(Random Forest) with high R^2 score and less errors    
 5 .  **Calculating Credit Score**: Using model predicted credit scores. Used a whole x independent variable cause we need to create a whole new column for credit score.    
 6 .  **Save file**: Saved the file with all features including credit score. 
-7 .   **Analysis**: Performed an analysis to find the user behaviour for different ranges of credit score.
+7 .  **Analysis**: Performed an analysis to find the user behaviour for different ranges of credit score.
 
 ### Why Regression
  The target variable is contineaous
